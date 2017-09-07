@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
   organization = "BioImaging Lab - INESC TEC Porto - Portugal"
   organization_url = "//bioimglab.inesctec.pt"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "profile_img2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "agaldran@gmail.com"
   address = "Rua Dr Roberto Frias, 4200 - Porto (Portugal)"
   office_hours = "Contact via e-mail"
@@ -159,9 +159,9 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
+ [[menu.main]]
+   name = "Blog"
+   url = "#posts"
   weight = 3
 
 [[menu.main]]
@@ -169,15 +169,20 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+ [[menu.main]]
+   name = "Teaching"
+   url = "#teaching"
+   weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
+
+[[menu.main]]
+  name = "DACO 2017_18"
+  url = "#DACO 2017_18"
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
