@@ -77,7 +77,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["python"]
   # highlight_style = "github"
   # highlight_version = "9.9.0"
 
@@ -158,11 +158,24 @@ defaultContentLanguageInSubdir = false
   name = "Publications"
   url = "#publications_selected"
   weight = 2
+  identifier = "publications"
 
- [[menu.main]]
-   name = "Blog"
-   url = "#posts"
+[[menu.main]]
+  name = "Recent Publications"
+  url = "#publications_selected"
   weight = 3
+  parent = "publications"
+
+[[menu.main]]
+  name = "All Publications"
+  url = "#publications_all"
+  weight = 4
+  parent = "publications"
+
+# [[menu.main]]
+#  name = "Blog"
+#  url = "#posts"
+#  weight = 3
 
 [[menu.main]]
   name = "Projects"
@@ -173,16 +186,20 @@ defaultContentLanguageInSubdir = false
    name = "Teaching"
    url = "#teaching"
    weight = 5
+   identifier = "teaching"
+
+[[menu.main]]
+  name = "DACO 2017_18"
+  url = "#DACO 2017_18"
+  weight = 5
+  parent = "teaching"
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
 
-[[menu.main]]
-  name = "DACO 2017_18"
-  url = "#DACO 2017_18"
-  weight = 7
+
 
 # Taxonomies.
 [taxonomies]
