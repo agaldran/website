@@ -18,6 +18,10 @@ defaultContentLanguageInSubdir = false
 [blackfriday]
   hrefTargetBlank = true
 
+# permalinks to blog posts
+# [permalinks]
+#    post = "/:year/:month/:day/:17_daco_prac_lec_1"
+
 [params]
   name = "Adrian Galdran"
   role = "Researcher on Image Processing and Machine Learning, with applications on Medical Imaging"
@@ -177,6 +181,7 @@ defaultContentLanguageInSubdir = false
 #  url = "#posts"
 #  weight = 3
 
+
 [[menu.main]]
   name = "Projects"
   url = "#projects"
@@ -188,16 +193,30 @@ defaultContentLanguageInSubdir = false
    weight = 5
    identifier = "teaching"
 
-[[menu.main]]
+ [[menu.main]]
   name = "DACO 2017_18"
   url = "#DACO 2017_18"
   weight = 5
   parent = "teaching"
 
+ [[menu.main]]
+  name = "DACO Theoretical Lectures"
+  url = "#17_daco_theory"
+  parent = "teaching"
+  weight = 6
+
+ [[menu.main]]
+  name = "DACO Practical Lectures"
+  url = "#17_daco_practicals"
+  parent = "teaching"
+  weight = 7
+
+
+
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 8
 
 
 
