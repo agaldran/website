@@ -6,4 +6,6 @@ title = "DACO - Practical Lecture 5 - Image Enhancement, Clustering and Segmenta
 math = false
 +++
 
+Where we learn about image enhancement, clustering, and segmentation.
+
 Under construction.

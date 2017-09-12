@@ -14,4 +14,14 @@ weight = 60
 
 +++
 
-Here you can find some supporting material for my teaching activities.
+I am/have been a teaching instructor for the following courses:
+
+- **2017**: Computer-Aided Diagnosis (DACO). Theoretical/Practical Sessions. Biomedical Engineering Degree (FEUP - Porto University, Faculty of Engineering, Portugal)
+- **2017**: Lectures on Advanced Color Image Processing. Invited Lecturer. MAIA - Medical Image Whatever - Erasmus Mundus, Cassino (Italy)
+- **2016**: Computer-Aided Diagnosis (DACO). Theoretical/Practical Sessions. Biomedical Engineering Degree (FEUP - Porto University, Faculty of Engineering, Portugal)
+
+
+Below you can find some supporting material for my teaching activities:
+
+- **DACO 2017**: Theoretical Lectures. Please go [[here]](www.google.com).
+- **DACO 2017**: Practical Lectures. Please go [[here]](www.google.com).

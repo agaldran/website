@@ -6,4 +6,6 @@ title = "DACO - Practical Lecture 4 - Texture and Color Analysis. Feature Extrac
 math = false
 +++
 
+Where we learn about feature extraction and texture analysis.
+
 Under construction.
