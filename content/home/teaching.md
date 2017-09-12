@@ -23,5 +23,5 @@ I am/have been a teaching instructor for the following courses:
 
 Below you can find some supporting material for my teaching activities:
 
-- **DACO 2017**: Theoretical Lectures. Please go [[here]](www.google.com).
-- **DACO 2017**: Practical Lectures. Please go [[here]](www.google.com).
+- **DACO 2017**: Theoretical Lectures. Please go [[here]](https://agaldran.github.io/#17_daco_theory).
+- **DACO 2017**: Practical Lectures. Please go [[here]](https://agaldran.github.io/#17_daco_practicals).

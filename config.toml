@@ -21,11 +21,11 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Adrian Galdran"
   role = "Researcher on Image Processing and Machine Learning, with applications on Medical Imaging"
-  organization = "BioImaging Lab - INESC TEC Porto - Portugal"
+  organization = "BioImaging Lab - INESC TEC Porto (Portugal)"
   organization_url = "//bioimglab.inesctec.pt"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "profile_img2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "agaldran@gmail.com"
+  email = "adrian.galdran@inesctec.pt"
   address = "Rua Dr Roberto Frias, 4200 - Porto (Portugal)"
   office_hours = "Contact via e-mail"
   phone = ""
