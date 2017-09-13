@@ -10,6 +10,8 @@ Computer Vision, and Image Processing projects.
 """
 +++
 
+**NOTE: This tutorial is under construction**
+
 This year we have decided to move from Matlab to Python for the practical sessions.
 Some of you maybe will not have worked with this programming language.
 This first lecture is intended to make you aware of the (super-rich) Python ecosystem for scientific computing.
