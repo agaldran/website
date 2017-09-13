@@ -18,6 +18,7 @@ I am/have been a teaching instructor for the following courses:
 
 - **2017**: Computer-Aided Diagnosis (DACO). Theoretical/Practical Sessions. Biomedical Engineering Degree (FEUP - Porto University, Faculty of Engineering, Portugal)
 - **2017**: Lectures on Advanced Color Image Processing. Invited Lecturer. MAIA - Medical Image Whatever - Erasmus Mundus, Cassino (Italy)
+- **2017**: Image Analysis and Recognition (IAR). Seminars on Medical Image Analysis. Biomedical Engineering Degree (FEUP - Porto University, Faculty of Engineering, Portugal)
 - **2016**: Computer-Aided Diagnosis (DACO). Theoretical/Practical Sessions. Biomedical Engineering Degree (FEUP - Porto University, Faculty of Engineering, Portugal)
 
 
