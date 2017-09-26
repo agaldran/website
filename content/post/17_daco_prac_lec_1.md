@@ -68,6 +68,7 @@ More on this below.
 The Anaconda Python distribution can be found [here](https://www.continuum.io/downloads). Please install the Python 3.
 {{% /alert %}}
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 a) Python has two operating modes. Which are they?
 Interactive mode
@@ -80,6 +81,7 @@ Python 2
 Python 3 - correct
 Spyder
 Jupyter
+{{% /alert %}}
 
 ### 2.2  Executing Python code
 Python has two different modes: **interactive** and **standard**.
@@ -103,9 +105,9 @@ Again, there is a more convenient way for building code in standard mode, which 
 This programming tool will allow you to more easily debug, inspect variables, and quickly modify your code. 
 They typically also include an embedded interactive system. An example of an IDE is **Spyder**, already contained in the Anaconda distribution.
 
-Questions for the slide/quizzes:
-For the contents of this lecture, starting from Section 3, a notebook version of this lecture is available here. Open it!
-
+{{% alert note %}}
+For the contents of this lecture, starting from Section 3, a notebook version of this lecture is available **HERE** -- still not. Open it!
+{{% /alert %}}
 
 ## 3. **Introduction to the Python Programming Language**
 
@@ -140,6 +142,7 @@ This could be a specific number, for example.
 Finally, you can think of object identity as an identity number for the object.
 Each distinct object in the computer's memory will have its own identity number.
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 Consider the following line of code:
 x = 4
@@ -147,6 +150,7 @@ In this assignment, what does the number 4 represent?
 The object type.
 The object value. correct
 The object identity.
+{{% /alert %}}
 
 Most Python objects have either data or functions or both associated with them.
 These are known as attributes.
@@ -243,11 +247,12 @@ Objects whose value can change are said to be mutable objects,
 whereas objects whose value is unchangeable after they've been created
 are called immutable.
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 What does it mean for an object to be immutable?
 Its contents cannot be modified by the programmer.
 Its contents cannot be modified by the programmer after the object has been created. correct
-
+{{% /alert %}}
 
 Continuing with sequences, in order to access the elements that a tuple/list holds, you use **square brackets, not parenthesis**:
 ```python
@@ -257,12 +262,14 @@ t_first = t[0]
 Also note that, the same as e.g. C (and different from e.g. Matlab), **in Python indexing starts at 0**.
 Be careful with this, because it is a common source of confusion in the beginning.
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 Consider the following tuple and index (1,2,3)[0]. What will this return?
 0
 1
 3
 This code contains an error.
+{{% /alert %}}
 
 Sequences can be accessed by indexing, which supports negatives indexes:
 ```python
@@ -277,6 +284,7 @@ print(l[:2]) # empty spot before : means from first index
 print(l[0:5:2]) # every element, but use a step size of 2
 ```
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 Consider the following tuple and index (1,2,3)[0:-1]. What will this return?
 (1,2) correct
@@ -284,6 +292,7 @@ Consider the following tuple and index (1,2,3)[0:-1]. What will this return?
 () 
 This code contains an error.
 Python includes all values from the beginning of the first index in the slice up to and not including the second value in the slice
+{{% /alert %}}
 
 Sequences also support a very handy operation called **slicing**, that enables access to multiple objects at the same time:
 ```python
@@ -294,6 +303,7 @@ print(l[:2]) # empty spot before : means from first index
 print(l[0:5:2]) # every element, but use a step size of 2
 ```
 
+{{% alert warning %}}
 Questions for the slide/quizzes:
 Consider the following tuple and index (1,2,3)[1:1]. What will this return?
 (0)
@@ -301,6 +311,7 @@ Consider the following tuple and index (1,2,3)[1:1]. What will this return?
 () correct
 This code contains an error.
 Python includes all values from the beginning of the first index in the slice up to and not including the second value in the slice
+{{% /alert %}}
 
 Tuples and lists, as every python object, have several methods that you can use with them. 
 However, since lists are mutable, they have methods that can modify their content: 
@@ -356,91 +367,25 @@ to retrieve are all of the values in the dictionary:
 names = ages.keys()
 years = ages.values()
 ```
+
+{{% alert warning %}}
 Questions for the slide/quizzes:
 Which of the following data structures may be used as keys in a dict?
 Strings
 Lists
 Tuples
-
-### 3.6 Statements
-
-### 3.7 Flow Control
-
-### 3.7 Python Functions
-
-### Classes and Scope Rules
-
-
-## 4. **Complementary Python Scientific Computing Tools**
-Numpy, Matplotlib.
-
-
-
-------------------------------------------------------------------------------
-
-
-
-### 3.3 - Flow Control in Python
-Typical flow control structures are implemented as usual in Python.
-{{% alert note %}}
-Be careful with Python code **indentation**:
-the space you leave to the left of your piece of code implicitly delimits code blocks.
-{{% /alert %}}
-We will learn the behavior of flow control statements in Python by example,
-to reinforce the idea of how intuitive Python is.
-#### `if`-`else` statements
-Observe the following code:
-```python
-if 3>2:
-    print('success')
-elif 3==2:
-    print('failure')
-else:
-    print('I do not know')
-print('do you know?')
-```
-
-#### `for` loops
-Observe the following code:
-```python
-for i in [0,1,2,3]:
-    print(i)
-```
-#### `while` loops
-Observe the following code:
-```python
-i=0
-while i < 4:
-    print(i)
-    i = i+1
-```
-{{% alert note %}}
-Do not forget about the semicolon in the end of control statements!
-{{% /alert %}}
-#### `break` and `continue`
-Observe the following code:
-```python
-for i in [0,1,2,3,4]:
-    if i % 3 == 0:
-        continue
-    print(i)
-```
-```python
-for i in [0,1,2,3,4]:
-    if i % 3 == 0:
-        break
-    print(i)
-```
-{{% alert note %}}
-Can you give a definition of both statements?
 {{% /alert %}}
 
-### 3.4 - Python Variables and Functions:
-Variables are simply reserved memory locations to store values.
-The moment you create a variable you reserve some space in memory.
-Depending on the data type of a variable, the interpreter allocates a certain amount of memory..
+#### 3.6 - Python typing
+{{% alert warning%}}
+REWRITE THIS BELOW!
+{{% /alert %}}
 
-As we have seen above, in Python, there is no need of declaring variables before using them.
+Objects in Python are composed by their name, their content, and a reference that points the name to the content.
+When an object is created, Python tells your computer to reserve memory locations to store the corresponding data.
+Depending on the data type of a variable, the interpreter allocates a certain amount of memory.
+
+As we have seen above, in Python, there is no need of declaring objects nor their type before using them.
 This is because actually what you are doing is not creating a spot in memory and filling it with an object.
 Rather, you are creating a pointer (that occupies a first memory spot), and then making that pointer point to an object in a second memory spot.
 For this reason, you can for instance reassign a variable to a different type of object without errors:
@@ -457,28 +402,138 @@ b[2] = 0
 print(a)
 ```
 {{% alert note %}}
-What would have happened above, if `a` would  have been a tuple instead of a list? Think and then try!
+What would have happened above, if `a` would have been a tuple instead of a list? Think and then try!
 {{% /alert %}}
 
+
+### 3.7 Flow Control
+Typical flow control structures are implemented as usual in Python.
+{{% alert note %}}
+Be careful with Python code **indentation**:
+the space you leave to the left of your piece of code implicitly delimits code blocks.
+{{% /alert %}}
+We will learn the behavior of flow control statements in Python by example,
+to reinforce the idea of how intuitive Python is.
+#### 3.7.1 - `if`-`else` statements
+Observe the following code:
+```python
+if 3>2:
+    print('success')
+elif 3==2:
+    print('failure')
+else:
+    print('I do not know')
+print('This will be printed either way')
+```
+
+#### 3.7.2 - `for` loops  
+Observe the following code and try to predict its output:
+```python
+for i in [0,1,2,3]:
+    print(i)
+```
+
+{{% alert note %}}
+Do not forget about the semicolon in the end of control statements!
+{{% /alert %}}
+
+#### 3.7.3 - `while` loops
+Observe the following code and try to predict its output:
+```python
+i=0
+while i < 4:
+    print(i)
+    i = i+1
+```
+
+#### 3.7.4 - Other statements: `break` and `continue`
+Observe the following two pieces of code and try to predict their output:
+```python
+for i in [0,1,2,3,4]:
+    if i % 3 == 0:
+        continue
+    print(i)
+```
+```python
+for i in [0,1,2,3,4]:
+    if i % 3 == 0:
+        break
+    print(i)
+```
+{{% alert note %}}
+Can you give a definition of both statements?
+{{% /alert %}}
+
+
+{{% alert warning %}}
+Questions for the slide/quizzes:
+Create some simple exercises in which the student predicts outputs. Use for i in X and for i in range(len(X)). Loop over dictionary keys and values.
+**Example:**
+Consider bears = {"Grizzly":"angry", "Brown":"friendly", "Polar":"friendly"}. 
+Can you replace #blank# so the code will print a greeting only to friendly bears?
+
+for bear in bears:
+  if #blank#:
+   print("Hello, "+bear+" bear!")
+else:
+  print("odd")
+  
+**Example:**
+is_prime = True
+for i in range(2,n):
+   if n%i == 0:
+     #blank#
+print(is_prime)
+
+Can you fill in the #blank# line so the code will only print True if n is prime?
+{{% /alert %}}
+
+
+### 3.8 Python Functions
 Being only able to ``interactively'' play with variables is boring.
 To build more complex code, we need functions.
-A function in Python is defined as follows:
+Functions are tools for grouping statements so that they can be executed more than once in the same program.
+They are useful maximize code reuse and minimize code redundancy, therefore contributing to avoid errors.
+
+Functions are written using the `def` statement.
+You can send objects created inside your function back to where it was called with the `return` statement.
 ```python
-def compute_sum(a,b)
+def compute_sum(a,b):
     c = a+b
     return c
 ```
-The function `compute_sum` will receive two arguments (of unspecified type), compute its sum, and return the result.
-Note that functions do not necessarily have input and/or output parameters.
+To use this function, we simply call it passing appropriate parameters:
+```python
+a = 5
+b = -2
+print(compute_sum(a,b))
+```
+Arguments to Python functions are matched by position. 
+Tuples are typically used to return multiple values.
+Note that functions themselves are objects:
+```python
+print(type(compute_sum))
+```
 
-It is simple to specify a default value for some argument:
+In general, variables created or assigned in a function are local of that function and exist only while the function runs.
+```python
+L = [0,1,2]
+def modify(my_list):
+    c = 3
+    my_list[0] += 20
+modify(L)
+print(L)
+print(c)
+```
+
+It is also possible to specify a default value for some argument:
 ```python
 def compute_sum(a,b=2)
     c = a+b
     return c
 ```
 
-You can also have keyword arguments, specified by name:
+Likewise, you can have keyword arguments, specified by name:
 ```python
 print(1,2, sep=';')
 ```
@@ -492,23 +547,76 @@ def print_all(*args, **kwargs):
 ```
 This is useful to pass lists and dictionaries to a function. More in the homework.
 {{% alert warning %}}
-Need to explain this
+Need to explain or remove this
 {{% /alert %}}
 
-### 3.6 - Python Classes
-How can you go beyond built-in data types and create new types, with their
+
+{{% alert warning %}}
+Exercises:
+1.- Create a function that takes as arguments two lists `l1` and `l2`, and returns a new list containing the elements that were both in `l1` and `l2`.
+
+Hint: You can do this by looping over the elements of `l1` (`for`), checking if they are in `l2` (`if`), in which case you would add them to a list you would finally return (`append`).
+
+2.- Consider the following function
+```python
+def my_cum_sum(n):
+    my_sum = 0
+    for i in range(n):
+        my_sum += i
+        return my_sum
+```
+What value will `my_cum_sum(5)` return?
+
+3.- Recall that n! ("n factorial") is defined as the product of all integers 1,...,n. Additionally, by definition, 0! = 1.
+Create a factorial function that has as input an integer, and returns its factorial.
+
+Hint: There are several ways to solve this. 
+The simplest one is: check if the input is 0, in which case you return 1. Otherwise, start by N=1, loop from 1 to the input and update the result.
+
+{{% /alert %}}
+
+
+4.- We are going to count the frequency of each letter in a given string. 
+ 
+4.1) import the `string` library.
+Now create a variable `alphabet` that consists of the lowercase and uppercase letters in the English alphabet. For this, 
+use the `ascii_letters` attribute of the string library.
+
+4.2) Now, consider the sentence 'Jim quickly realized that the beautiful gowns are expensive'. 
+Create a dictionary `count_letters` with keys consisting of each unique letter in the sentence and values consisting of 
+the number of times each letter is used in this sentence. 
+Count both upper case and lower case letters separately in the dictionary.
+
+Hint: You can loop (`for`) over each letter in your sentence, check (`if`) if the letter is already among your dictionary keys, and otherwise, update your dictionary with a new key.
+For that, you can count the number of occurrences with the method `count`, which you can look up in google. 
+Do not forget to omit the blank space in `sentence`!
+
+4.3) Use the code you built in 4.2) to create a function called `counter` that takes a string `input_string` and returns 
+a dictionary of letter counts `count_letters`. Test it with `sentence`.
+
+4.4) Use the dictionary created by your function to find out and print the most frequent letter in `sentence`.
+
+5.- The distance between two points `x` and `y` is the square root of the sum of squared differences along each dimension of `x` and `y`. 
+Build a function `distance(x, y)` that takes two vectors and outputs the distance between them. 
+Use your function to find the distance between `x=(0,0)` and `y=(1,1)`, and between `x=(0,0,0)` and `y=(1,1,1)` 
+
+Hint: To be able to take the square root, import the `math` library. 
+
+### 3.9 Classes and Object-Oriented Programming
+How can you go beyond built-in data types and create new object types, with their
 associated methods and attributes defined by you?
 Python allows you to create new classes, and then define (*instantiate*)
 new objects of that class and interact with them. This way, you can
 group data and functions operating on it in a more abstract way, and
 then instantiate concrete samples and use them.
 Classes allow for a simplified modeling of our problems, and enables the
-creation of cleaner code that can be more easily extended in the future.
+creation of cleaner code that will be more easily extended in the future.
 
 {{% alert note %}}
 When dealing with classes, data is usually called *attributes*, and functions *methods*.
 {{% /alert %}}
 
+#### 3.9.2 - Building a new Class from scratch
 Every class needs to have a special method, called `constructor`, that initializes its attributes.
 ```python
 class Y:
@@ -564,6 +672,59 @@ Note that even if the formula method does not need any arguments, we still
 must add the `self` argument so that it can access the `v0` attribute.
 This is omitted in the method call.
 
+We know an object consists of both internal data and methods that perform operations on the data.
+At some point you may find that existing object types do not fully suit your needs. 
+Classes are the tool that allows you to create new types of objects.
+
+#### 3.9.2 - Class Inheritance
+Sometimes, even if you have the need for a new type, it may happen that this new object type resembles,
+in some way, an existing one.
+Classes have the ability to inherit from other classes, and this is a fundamental aspect of OOP.
+
+Let us see an example of how to build a new class, inheriting from the built-in Python `list` class. 
+We will add more functionality to it.
+ ```python
+class MyList(list):
+```
+this definition ensure that our new class, derived from `list`, will inherit the attributes of the base class. 
+However, now we can extend, or redefine those attributes!
+
+For instance, we are going to improve the built-in `remove` methods, implemented by Python for lists in this way:
+```python
+L = [0,1,2,5,5]
+L.remove(5)
+```
+We will add new methods to also be able to remove the maximum and minimum element of a list. 
+For this, we complete the definition of our extended class as follows:
+ ```python
+class MyList(list):
+    def remove_min(self):
+        self.remove(min(self))
+    def remove_max(self):
+        self.remove(max(self))
+```
+Now we can make use of our class:
+```python
+L2 = MyList(L)
+dir(L)
+dir(L2)
+print(L2.remove_min())
+```
+
+## 4. **Complementary Python Scientific Computing Tools: Numpy**
+As mentioned in the introduction, one of the most important strengths of Python is the large ecosystem of tools available.
+One of the most important libraries for scientific computing in general (and for this course in particular) is **NumPy**, 
+which is designed to perform matrix computations. 
+Here you will learn the fundamental concepts related to Numpy. 
+### 4.1 - Introduction to NumPy Arrays
+
+### 4.2 - Slicing NumPy Arrays
+
+### 4.3 - Indexing NumPy Arrays
+
+### 4.4 - Building and Examining NumPy Arrays
+
+
 **Homework**:
 
 ***Protect data from the user (i.e. you!).***
@@ -588,71 +749,6 @@ class Person(object):
 Note the use of None as default value for various data attributes: the object None
 is commonly used to indicate that a variable or attribute is defined, but yet not with
 a sensible value.
-
-***Class Inheritance:***
-Instead of starting from scratch, you can create a class by deriving it
-from a preexisting class by listing the parent class in parentheses after the new class name.
-
-```python
-class Parent:        # define parent class
-   parentAttr = 100
-   def __init__(self):
-      print "Calling parent constructor"
-
-   def parentMethod(self):
-      print 'Calling parent method'
-
-   def setAttr(self, attr):
-      Parent.parentAttr = attr
-
-   def getAttr(self):
-      print "Parent attribute :", Parent.parentAttr
-
-class Child(Parent): # define child class
-   def __init__(self):
-      print "Calling child constructor"
-
-   def childMethod(self):
-      print 'Calling child method'
-
-c = Child()          # instance of child
-c.childMethod()      # child calls its method
-c.parentMethod()     # calls parent's method
-c.setAttr(200)       # again call parent's method
-c.getAttr()          # again call parent's method
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
