@@ -10,7 +10,7 @@ Computer Vision, and Image Processing projects.
 """
 +++
 
-**NOTE: This tutorial is under construction**
+**NOTE: pdf slides for the first part of this lecture can be found [here](https://github.com/agaldran/daco_2017_practicals/blob/master/lecture_1_python/daco17_practical_lec_1.pdf)**
 
 This year we have decided to move from Matlab to Python for the practical sessions.
 Some of you maybe will not have worked with this programming language.
@@ -19,6 +19,7 @@ and make you aware of the (super-rich) Python ecosystem for scientific computing
 
 I really hope that by the end of this course you will be a Python fan, and consider abandoning Matlab once and forever!
 This is an overview of what you will be learning today:
+
 
 1. **Motivation and Goals. What is Python?**
 
@@ -53,6 +54,7 @@ This is an overview of what you will be learning today:
 
 So... let's move on.
 
+
 ## 1.- **Motivation and Goals. What is Python?**
 
 First thing, Python is **free**. Second, it is **simple**.
@@ -64,7 +66,7 @@ This manifests in the form of a large ecosystem of scientific computing tools th
 However, to add all this to your tool-belt, the first step is to familiarize yourself with the Python language itself.
 Today we will quickly review the main notions to get started on it.
 
-But first, let us install Python!
+But first, let us install Python! 
 
 ## 2. **Python Installation. Accompanying tools**
 ### 2.1 Anaconda Python Distribution
@@ -859,9 +861,12 @@ plt.hist(x, color = 'b');
 Note the use of a semicolon after each plot execution, in order to avoid printing the value returned by `matplotlib`.
 
 
+## 6. **Homework**
+For now, you can access a notebook with an exercise on Python classes [here](http://nbviewer.jupyter.org/github/agaldran/daco_2017_practicals/blob/master/lecture_1_python/DACO17_hw_exercise_1.ipynb). I will be adding another problem in the next days.
 
 
-## 6. **Sources and References**
+
+## 7. **Sources and References**
 Of course, there are tons of wonderful Python resources in the internet.
 The main sources I used to build this lecture were:
 
@@ -880,6 +885,3 @@ Regarding the `numpy` part, if you are a Matlab user, you could find this resour
 If you need or want more practice with Python and the tools presented today, I would recommend following the free course 
 at [datacamp](https://www.datacamp.com/courses/intro-to-python-for-data-science), and doing all the exercises proposed there.
 Codeacademy exercises, hosted [here](https://www.codecademy.com/learn/learn-python), can also be very useful to get more experience.
-
-
-
