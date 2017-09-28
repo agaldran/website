@@ -74,8 +74,11 @@ This means that, together with the core Python language, we'll be using several 
 But instead of installing all these packages manually one at a time, we will be using a **Python distribution**.
 A distribution consists of the core Python package and several hundred modules, and available through a single download and installation. 
 In this course, we will use the Anaconda Python distribution. 
-Apart of Python itself and several hundred libraries, Anaconda also includes two very useful development environments: **Jupyter** and **Spyder**. 
-More on this below.
+Apart of Python itself and several hundred libraries, Anaconda also includes two very useful development environments: **Jupyter NB** and **Spyder**. 
+
+**Spyder** is a Matlab-like **IDE** (Integrated Development Environment) that we will be using for complex/long programming assignments. 
+On the other hand, **Jupyter NB** is a functionality that allows you to run sequentially code in your browser. 
+I will be giving you instructions in class on how to install and use both tools.
 
 {{% alert note %}}
 The Anaconda Python distribution can be found [here](https://www.continuum.io/downloads). Please install Python 3. 
@@ -92,22 +95,24 @@ You will probably find yourself alternating between both modes.
 #### 2.2.1 Python Interactive Mode
 For a first example on interactive mode, open a command console, type `python`, and you will start using Python. Experiment a bit.
 
-A more convenient way of building code interactively is through **iPython notebooks - Jupyter**. 
+A more convenient way of building code interactively is through **Jupyter iPython notebooks**. 
 This also allows us to mix text, code, and maths, which is really cool. 
-To start an iPython notebook, open a console, type jupyter notebook, and navigate in your browser to localhost/whatever.
-Explanations on ipython.
+To start an iPython notebook, open a console, type jupyter notebook, and navigate in your browser to `http://localhost:8888/`.
+In windows, you may need a log-in password, provided automatically after executing jupyter.
+[Here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) you can find a series of useful tricks and shortcuts.
 
 
 #### 2.2.2 Python Standard Mode
 In this case, we write a text file with Python instructions, and run it. ``hello_world.py``.
 
-Again, there is a more convenient way for building code in standard mode, which is using an **IDE** (Integrated Development Environment).
+Again, there is a more convenient way for building code in standard mode, which is using an IDE.
 This programming tool will allow you to more easily debug, inspect variables, and quickly modify your code. 
 They typically also include an embedded interactive system. An example of an IDE is **Spyder**, already contained in the Anaconda distribution.
 
 {{% alert note %}}
-For the contents of this lecture, starting from Section 3, a notebook version of this lecture is available [here](https://github.com/agaldran/daco_2017_practicals/blob/master/lecture_1_python/Practical%20Lecture%201%20-%20Introduction%20to%20Python%20for%20Scientific%20Computing.ipynb). 
-Download and open it!
+For the contents of this lecture, starting from Section 3, a notebook version of this lecture is available in a static 
+view [here](http://nbviewer.jupyter.org/github/agaldran/daco_2017_practicals/blob/master/lecture_1_python/PL1_introduction2Python.ipynb). 
+Please click the download button in the right top corner, download and open it!
 {{% /alert %}}
 
 ## 3. **Introduction to the Python Programming Language**
@@ -471,16 +476,20 @@ When dealing with classes, data is usually called *attributes*, and functions *m
 #### 3.9.2 - Building a new Class from scratch
 Every class needs to have a special method, called `constructor`, that initializes its attributes.
 ```python
-class Y:
-    def __init__(self, v0):
-        self.v0 = v0
-        self.g = 9.81
+class UP_student:
+    def __init__(self, name, math_skills, coding_skills, hard_working, theory_mark, practical_mark):
+        self.name = name
+        self.math_skills = math_skills
+        self.coding_skills = coding_skills
+        self.hard_working = hard_working                
+        self.theory_mark = theory_mark
+        self.practical_mark = practical_mark  
 ```
 You will note the presence of the `self` parameter: this is a special inner
 reference to the object state. It may take some time to understand the use
 of `self`, but do not be afraid, we will see some examples afterwards.
 
-As it stands, an object of the `Y` class has very limited value, as it contains only data (attributes).
+As it stands, an object of the `UP_student` class has very limited value, as it contains only data (attributes).
 Let us add some spice by giving our class a function (method):
 ```python
 class Y:
@@ -493,36 +502,56 @@ class Y:
 The utility of `self` starts to become clear now. At this point, you have
 created a useful class, and you can instantiate an object of this new type easily:
 ```python
-y = Y(3)
-print(type(y))
+name = 'adrian_galdran'
+adrian_math_skills = 0.9
+adrian_coding_skills = 0.8
+adrian_hard_working = True
+adrian_student = UP_student(name, adrian_math_skills, adrian_coding_skills, adrian_hard_working)
+print(type(a_student))
 ```
-As you can see, we call our class as if it was a normal Python function, and Python
-automatically invokes the constructor method. `__init__` requires a parameter to be specified
-at instantiation time, in this case `3`. If you do not specify it, you will get an error.
+As you can see, we call our class as if it was a normal Python function, and Python automatically invokes the constructor method. 
+`__init__` requires several parameters to be specified at instantiation time. If you do not specify them correctly, you will get an error.
 
 Now, attributes and methods are exposed to the user:
 ```python
-print(y.v0)
-print(y.g)
-print(y.value(t=0.1))
+print(adrian_student.coding_skills)
+print(adrian_student.hard_working)
+print('Global Mark: ', adrian_student.compute_global_mark(0.2)) # Let us give more weight to the practical part!
 ```
 
-How can you add new methods to your class? Let us add a `formula` method
-that print the mathematical function used to compute `value`. This method
-does not need input parameters, and outputs a string:
+How can you add new methods to your class? For instance, we can add a `print_global_mark` method
+that computes and prints the final mark automatically. This method only needs as input parameter `theory_weight`, and outputs a string:
 ```python
-class Y:
-    def __init__(self, v0):
-        self.v0 = v0
-        self.g = 9.81
-    def value(self, t):
-        return self.v0 * t - 0.5*self.g*t**2
-    def print_formula(self):
-        return 'v0*t - 0.5*g*t**2'
+class UP_student:
+    def __init__(self, name, math_skills, coding_skills, hard_working, theory_mark = 5, practical_mark = 4):
+        self.name = name
+        self.math_skills = math_skills
+        self.coding_skills = coding_skills
+        self.hard_working = hard_working                
+        self.theory_mark = theory_mark
+        self.practical_mark = practical_mark 
+    def compute_global_mark(self, theory_weight = 0.6):
+        return theory_weight*self.theory_mark + (1-theory_weight)*self.practical_mark
+    def print_global_mark(self, theory_weight = 0.6):
+        global_mark = self.compute_global_mark(theory_weight)
+        print('The final mark of ', self.name, ' is ', global_mark)
 ```
-Note that even if the formula method does not need any arguments, we still
-must add the `self` argument so that it can access the `v0` attribute.
+Note that even if the `print_global_mark` method only needs the `theory_weight` argument, we still
+must add the `self` argument so that it can call `self.global_mark`. 
 This is omitted in the method call.
+
+
+Notice also that inside the class, `compute_global_mark` is known to the object and needs no `self` parameter.
+```python
+name = 'adrian_galdran'
+adrian_math_skills = 0.9
+adrian_coding_skills = 0.8
+adrian_hard_working = True
+adrian_student = UP_student(name, adrian_math_skills, adrian_coding_skills, adrian_hard_working)
+
+adrian_student.print_global_mark()
+```
+
 
 We know an object consists of both internal data and methods that perform operations on the data.
 At some point you may find that existing object types do not fully suit your needs. 
