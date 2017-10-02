@@ -4,78 +4,100 @@ draft = false
 tags = ["daco_prac_17"]
 title = "DACO - Practical Lecture 2 - Bayesian Classification and Linear Regression"
 math = false
+summary = """
+Where we introduce the scikit-learn library for Machine Learning. We learn about Classification with 
+the Naive Bayes classifier, and Regression with a simple Linear Regression model.
+"""
 +++
-Where we introduce the scikit-learn library for Machine Learning.
-We will code from scratch a Naive Bayes classifier and a Linear Regressor,
-and compare them with sk-learn implementations.
 
-This year we have decided to move from Matlab to Python for the practical sessions.
-Some of you maybe will not have worked with this programming language.
-This first lecture is intended to make you aware of the (super-rich) Python ecosystem for scientific computing.
+This practical lecture is again based on Jupyter Notebooks, but for the theory bits you can also find some supporting 
+material in the slides mentioned above. Note that we discuss Linear Regression in Theoretical Lecture 6, see [here](). 
+For this reason, we will only be using them as a black-box today, to familiarize ourselves with sk-learn for regression tasks. 
 
-I really hope that by the end of this course you will be a Python fan, and consider abandoning Matlab once and forever!
-This is an overview of what you will be learning today:
+Here is the plan for today:
 
-1. Motivation and Goals. What is Python?
+1. **Motivation and Goals. Machine Learning for Supervised Classification and Regression**
+    1. Difference between Classification and Regression
+    2. Difference between Generative and Discriminative models
+    3. Quick overview of scikit-learn
 
-2. Python Installation. Accompanying Tools.
+2. **Bayesian Classification: a bit of theory**
 
-3. A Swift Introduction to the Python Programming Language
+3. **Naive Bayes Classifier Implementation**
+    1. From scratch
+    2. Using scikit-learn
 
-4. Complementary Python Scientific Computing Tools
+4. **Linear Regression: a (tiny) bit of theory**
+    
+5. **Linear Regression Implementation**
+    1. From scratch
+    2. Using scikit-learn
 
-5. Homework :scream:
+6. **Homework :scream:**
 
-6. Sources and References
+7. **Sources and References**
+ 
+# 1.- **Motivation and Goals. Machine Learning for Supervised Classification and Regression**
+As you will know, this course is all about about making predictions out of data and annotations. 
+But there are several different kinds of predictions, and hence several tasks that we can solve.
+Among the most fundamental ones are Supervised Classification and Supervised Regression.
 
-So... let's move on.
+**Note:** The term **supervised** refers to the fact that we assume we have data with annotations. 
+A different kind of models exist related to the situation where there is no annotations, and the goal is to extract some 
+useful information out of the available (unlabeled) data. 
+For instance, we could think of a dataset with customer preferences regarding certain products. 
+Could we group a given pool of users into several subgroups that behave similar among them, but differently with respect to the other subgroups?
+This task is known as clustering, and we will be working on it in future lectures. 
+But for now, we assume for each example in our dataset, we know the corresponding quantity of interest. 
 
-## 1.- **Motivation and Goals. What is Python?**
+## 1.1 - **Difference between Classification and Regression**
+This is better understood by example.
 
-First thing, Python is **free**. Second, it is **simple**.
-Third, it is increasingly becoming the tool of choice for data science projects.
-And last, there is a **huge** community of contributors to lots of open-source projects that complement it.
-This manifests in the form of a large ecosystem of scientific computing tools that grow along with the number of users.
+## 1.2 - **Difference between Generative and Discriminative models**
+See [here](https://www.cs.toronto.edu/~duvenaud/courses/csc2541/index.html) for a definition of Generative models.
 
-However, to add all this to your toolbelt, the first step is to familiarize yourself with the Python language itself.
-Today we will quickly traverse the main notions to get started on that.
+## 1.3 - **Quick overview of scikit-learn**
+See [here](scikit-learn.org) for an introduction to scikit-learn.
 
-But first, let us install Python!
+-----------------------------------------------------------------------------
 
-## 2. **Python Installation. Accompanying Tools.**
-Conda/Anaconda. Command Line. Package Manager. IDEs. Ipython Notebooks.
+# 2.- **Bayesian Classification: a bit of theory**
+You have already seen this in class.
 
-## 3. **Introduction to the Python Programming Language**
+-----------------------------------------------------------------------------
 
-1. **first**
-The same as in any language, Python also has different types of data.
-The same as in e.g Matlab (and different from e.g. C) you do not need to explicitly declare the type of a variable.
-Python determines data type of variables by how they are used.
-For instance, to create an integer (`int`) variable you simply type:
-```python
-# An integer variable a
-a = 5
-print(type(a))
-```
-`print` and `type` are a built-in Python functions that behave as you would expect.
-More on functions later.
-Note that in Python 2 you would not use parentheses with `print`
-Other basic/common python types are for instance`float` or `boolean`, exemplified below:
-```python
-# A float variable f
-f = 5.0
-# A boolean
-b = True
-```
-2. second
+# 3.- **Naive Bayes Classifier Implementation**
+How do we implement those ideas?
 
-3. third
 
-Python has lots of operators, the most prominent ones being **arithmetic**, **comparison**, and **logical**.
--- Arithmetic operators will take two variables and perform simple mathematical operations on them.
-They are addition, subtraction, multiplication, division, modulus, floor division, and exponentiation.
-```python
-# A list of lists
-l = [[0],[1],[2,3]]
-```
--- Comparison operators observe two variables and return a boolean value.
+## 3.1 - **From scratch**
+Without relying on external libraries, so that you understand what is going on.
+
+
+## 3.2 - **Using scikit-learn**
+sk-learn implementation, that you can bet is better than the above.
+
+-----------------------------------------------------------------------------
+
+# 3.- **Linear Regression: a (tiny) bit of theory**
+You have already seen this in class, or will see it. See [here](google.es)
+
+-----------------------------------------------------------------------------
+
+# 4.- **Linear Regression Implementation**
+How do we implement those ideas?
+
+## 4.1 - **From scratch**
+This is covered in the theory class, see [here](google.es).
+
+## 4.2 - **Using scikit-learn**
+sk-learn implementation, that you can bet is better than the above.
+
+-----------------------------------------------------------------------------
+
+# 6. **Homework**
+For now, you can access a notebook with an exercise on Python classes [here](google.es). I will be adding another problem in the next days.
+
+
+
+# 7. **Sources and References**

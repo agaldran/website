@@ -16,7 +16,7 @@ weight = 62
 tags = ["daco_prac_17"]
 
 # Number of posts to list.
-count = 1
+count = 2
 
 +++
 

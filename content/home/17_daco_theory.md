@@ -13,10 +13,10 @@ widget = "posts"
 weight = 61
 
 # Show posts that contain the following tags. Default to any tags.
-# tags = ["daco_theory_17"]
-tags = ["nothing_to_show"]
+tags = ["daco_theory_17"]
+# tags = ["nothing_to_show"]
 # Number of posts to list.
-count = 5
+count = 2
 
 +++
 

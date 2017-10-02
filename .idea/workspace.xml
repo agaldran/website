@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaea58f7-75f6-4789-8fd8-f09572996d52" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/17_daco_theory_lec_1.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public" afterPath="$PROJECT_DIR$/public" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md" afterPath="$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/home/17_daco_practicals.md" afterPath="$PROJECT_DIR$/content/home/17_daco_practicals.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/home/17_daco_theory.md" afterPath="$PROJECT_DIR$/content/home/17_daco_theory.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md" afterPath="$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" afterPath="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +27,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="17_daco_prac_lec_1.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="17_daco_prac_lec_2.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="37" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_daco_theory_lec_6a.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_6a.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="720">
+                <caret line="40" column="106" lean-forward="false" selection-start-line="40" selection-start-column="106" selection-end-line="40" selection-end-column="106" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_daco_prac_lec_1.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="254">
-                <caret line="856" column="25" lean-forward="true" selection-start-line="856" selection-start-column="25" selection-end-line="856" selection-end-column="25" />
+              <first_editor relative-caret-position="290">
+                <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="87" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_daco_prac_lec_1_old.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="290">
+                <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17_daco_theory.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/home/17_daco_theory.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="324">
+                <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,13 +100,14 @@
       <find>line of</find>
       <find>note</find>
       <find>{{%</find>
-      <find>alert</find>
       <find>Python typing</find>
       <find>usage</find>
       <find>quizz</find>
       <find>Consider</find>
       <find>Quick</find>
       <find>more on this</find>
+      <find>homew</find>
+      <find>alert</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +127,6 @@
         <option value="$PROJECT_DIR$/content/home/2017_daco_lectures.md" />
         <option value="$PROJECT_DIR$/content/home/MAIA_2018.md" />
         <option value="$PROJECT_DIR$/content/home/DACO 2017_18.md" />
-        <option value="$PROJECT_DIR$/content/home/17_daco_theory.md" />
-        <option value="$PROJECT_DIR$/content/home/17_daco_practicals.md" />
         <option value="$PROJECT_DIR$/content/home/publications.md" />
         <option value="$PROJECT_DIR$/content/home/publications_selected.md" />
         <option value="$PROJECT_DIR$/content/home/projects.md" />
@@ -81,10 +136,15 @@
         <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_4.md" />
         <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_5.md" />
         <option value="$PROJECT_DIR$/content/post/17_daco_theory_lec_1.md" />
-        <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" />
         <option value="$PROJECT_DIR$/content/home/teaching.md" />
-        <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md" />
         <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md" />
+        <option value="$PROJECT_DIR$/content/home/17_daco_practicals.md" />
+        <option value="$PROJECT_DIR$/content/post/17_daco_theory_lec_6.md" />
+        <option value="$PROJECT_DIR$/content/home/17_daco_theory.md" />
+        <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" />
+        <option value="$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md" />
+        <option value="$PROJECT_DIR$/content/post/17_daco_theory_lec_6b.md" />
+        <option value="$PROJECT_DIR$/content/post/17_daco_theory_lec_6a.md" />
       </list>
     </option>
   </component>
@@ -121,102 +181,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exampleSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exampleSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exampleSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,9 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/home/teaching.md" />
-    <entry file="file://$PROJECT_DIR$/content/home/projects.md" />
-    <entry file="file://$PROJECT_DIR$/content/home/DACO 2017_18.md" />
     <entry file="file://$PROJECT_DIR$/static/img/headers/bubbles-wide.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -587,7 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/_index.md" />
     <entry file="file://$PROJECT_DIR$/content/project/deep-learning.md" />
     <entry file="file://$PROJECT_DIR$/content/post/getting-started.md" />
     <entry file="file://$PROJECT_DIR$/content/post/managing-content.md" />
@@ -598,45 +558,16 @@
     <entry file="file://$PROJECT_DIR$/content/home/2017_daco_lectures.md" />
     <entry file="file://$PROJECT_DIR$/themes/academic/exampleSite/content/post/managing-content.md" />
     <entry file="file://$PROJECT_DIR$/themes/academic/exampleSite/content/home/posts.md" />
-    <entry file="file://$PROJECT_DIR$/content/home/17_daco_theory.md" />
     <entry file="file://$PROJECT_DIR$/content/home/DACO 2017_18.md" />
     <entry file="file://$PROJECT_DIR$/content/home/MAIA_2018.md" />
     <entry file="file://$PROJECT_DIR$/content/home/publications.md" />
     <entry file="file://$PROJECT_DIR$/themes/academic/exampleSite/content/home/teaching.md" />
     <entry file="file://$PROJECT_DIR$/content/home/about.md" />
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/home/publications_selected.md" />
     <entry file="file://$PROJECT_DIR$/content/home/projects.md" />
     <entry file="file://$PROJECT_DIR$/content/home/publications_all.md" />
     <entry file="file://$PROJECT_DIR$/themes/academic/exampleSite/content/post/getting-started.md" />
-    <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_1.md" />
     <entry file="file://$PROJECT_DIR$/themes/academic/exampleSite/content/post/writing-markdown-latex.md" />
-    <entry file="file://$PROJECT_DIR$/content/home/17_daco_practicals.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="83" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -667,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1969">
-            <caret line="215" column="69" lean-forward="false" selection-start-line="215" selection-start-column="69" selection-end-line="215" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/home/teaching.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -692,11 +613,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/home/17_daco_practicals.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/home/17_daco_theory.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_6b.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1_old.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="290">
+            <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="254">
-            <caret line="856" column="25" lean-forward="true" selection-start-line="856" selection-start-column="25" selection-end-line="856" selection-end-column="25" />
+          <first_editor relative-caret-position="290">
+            <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="87" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
@@ -705,6 +711,28 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="37" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_theory_lec_6a.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="720">
+            <caret line="40" column="106" lean-forward="false" selection-start-line="40" selection-start-column="106" selection-end-line="40" selection-end-column="106" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
