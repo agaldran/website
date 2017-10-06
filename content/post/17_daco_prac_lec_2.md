@@ -10,9 +10,17 @@ the Naive Bayes classifier, and Regression with a simple Linear Regression model
 """
 +++
 
-This practical lecture is again based on Jupyter Notebooks, but for the theory bits you can also find some supporting 
-material in the slides mentioned above. Note that we discuss Linear Regression in Theoretical Lecture 6, see [here](). 
-For this reason, we will only be using them as a black-box today, to familiarize ourselves with sk-learn for regression tasks. 
+This practical lecture is again based on Jupyter Notebooks. 
+You can see and download the notebook corresponding to today [here](http://nbviewer.jupyter.org/github/agaldran/daco_2017_practicals/blob/master/lecture_2_bayes_regression/PL2_bayesian_classification_LR.ipynb).
+For completeness, please also download the following set of Python files, which will illustrate the use of Jupyter notebooks in combination with Spyder: 
+[[1]](https://github.com/agaldran/daco_2017_practicals/blob/master/lecture_2_bayes_regression/main.py),
+[[2]](https://github.com/agaldran/daco_2017_practicals/blob/master/lecture_2_bayes_regression/daco_create_data.py),
+[[3]](https://github.com/agaldran/daco_2017_practicals/blob/master/lecture_2_bayes_regression/daco_visualizations.py).
+Please store them in the same folder as where you put the notebook.
+
+
+Note that we discuss Linear Regression in Theoretical Lecture 6. 
+For this reason, we will only be using them alsmot as a black-box today, to familiarize ourselves with sk-learn for regression tasks. 
 
 Here is the plan for today:
 
