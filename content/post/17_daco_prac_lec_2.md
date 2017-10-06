@@ -19,7 +19,8 @@ Here is the plan for today:
 1. **Motivation and Goals. Machine Learning for Supervised Classification and Regression**
     1. Difference between Classification and Regression
     2. Difference between Generative and Discriminative models
-    3. Quick overview of scikit-learn
+    3. Aside: Working from Spyder
+    4. Quick overview of scikit-learn
 
 2. **Bayesian Classification: a bit of theory**
 
@@ -29,9 +30,7 @@ Here is the plan for today:
 
 4. **Linear Regression: a (tiny) bit of theory**
     
-5. **Linear Regression Implementation**
-    1. From scratch
-    2. Using scikit-learn
+5. **Linear Regression Using scikit-learn**
 
 6. **Homework :scream:**
 
@@ -43,18 +42,62 @@ But there are several different kinds of predictions, and hence several tasks th
 Among the most fundamental ones are Supervised Classification and Supervised Regression.
 
 **Note:** The term **supervised** refers to the fact that we assume we have data with annotations. 
-A different kind of models exist related to the situation where there is no annotations, and the goal is to extract some 
-useful information out of the available (unlabeled) data. 
+A different kind of models exist related to the situation where there is no annotations, and the goal is to extract some useful information out of the available (unlabeled) data. This is called **unsupervised** learning.
+
 For instance, we could think of a dataset with customer preferences regarding certain products. 
 Could we group a given pool of users into several subgroups that behave similar among them, but differently with respect to the other subgroups?
 This task is known as clustering, and we will be working on it in future lectures. 
 But for now, we assume for each example in our dataset, we know the corresponding quantity of interest. 
 
 ## 1.1 - **Difference between Classification and Regression**
-This is better understood by example.
+**Classification**: in your data every examples is associated to two or more classes. You want to learn from this labeled data how to predict the class of new unlabeled data. 
+
+Example: Given a set of lung CT scans, a doctor has annotated each of them after examination, specifying whether they show or not signs of lung cancer.
+
+**Regression**: In this case, the output of your model is is not a discrete label, but a real number. 
+
+Example: given a training set in which you have examples of red and white globule concentration, predict the amount of blood pressure. In this case, the output (blood pressure) is not a single label, but a number.
+
+Both classification and regressoin are supervised learning problems, since there is labeled data available. However, the discrete nature of classification, as opposed to continuous for regression, require different types of learning models.
+
 
 ## 1.2 - **Difference between Generative and Discriminative models**
-See [here](https://www.cs.toronto.edu/~duvenaud/courses/csc2541/index.html) for a definition of Generative models.
+In (supervised) learning we always have a dataset of examples with associated labels. 
+However, we do not usually feed our models with the raw data (with a super-relevant exception that we will see later in this course). 
+
+For instance, imagine I have a dataset of all the movies I watched in 2016 and 2017, and each movie is tagged with a label indicating whether I liked it or not. 
+If I want to build a model that takes a new movie and predicts if I will like it or not, I am not going to give to my classifier every frame of the movie and let it process it. Rather I am going to extract some key information summarizing the movie, such as genre, actors and actresses, duration, soundtrack, etc. 
+We call these key informative traits of our data **features**, and their selection is
+
+Imagine now that I decided that with the duration and rating of the movie in IMDB, I can already describe the movie in such a way that I can build a classifier for my problem. 
+We can build the following plot:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import make_blobs
+%matplotlib inline
+
+# create some synthetic data
+n_samples = 100
+n_features = 2
+movies_mean = [[1.5, 7], [2, 8]] # [mean_movie_duration, mean_IMDB_score]
+movies_std = (0.25, 0.25) # [std_movie_duration, std_IMDB_score]
+movies, like_it_or_not = make_blobs(n_samples, n_features, movies_mean, movies_std)
+
+
+movies_I_liked = movies[like_it_or_not==1]
+movies_I_disliked = movies[like_it_or_not==0]
+
+# plot data points
+plt.scatter(movies_I_liked[:,0],movies_I_liked[:,1], marker = 'o', color = 'g', label = 'Liked');
+plt.scatter(movies_I_disliked[:,0],movies_I_disliked[:,1], marker = 'o', color = 'r', label = 'Disliked');
+plt.xlabel('duration');
+plt.ylabel('IMDB rating');
+plt.legend();
+plt.show()
+```
+
 
 ## 1.3 - **Quick overview of scikit-learn**
 See [here](scikit-learn.org) for an introduction to scikit-learn.
