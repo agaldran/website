@@ -14,7 +14,7 @@ weight = 20
 
 # 2017
 ##  **Journal Publications**
-**End-to-end Adversarial Retinal Image Synthesis**, P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, IEEE Transactions on Medical Imaging, **Oct/2017**. [[DOI]](https://doi.org/10.1109/TMI.2017.2759102), [[PDF]](pdf/tmi_2017.pdf )
+**End-to-end Adversarial Retinal Image Synthesis**, P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, IEEE Transactions on Medical Imaging, **Oct/2017**. [[DOI]](https://doi.org/10.1109/TMI.2017.2759102), [[PDF]](pdf/tmi_2017.pdf)
 
 **Fusion-Based Variational Image Dehazing**, *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, IEEE Signal Processing Letters (Q2), **Feb/2017**. [[DOI]](https://doi.org/10.1109/LSP.2016.2643168), [[PDF]](https://bird.bcamath.org/handle/20.500.11824/659)
 

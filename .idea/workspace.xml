@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaea58f7-75f6-4789-8fd8-f09572996d52" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public" afterPath="$PROJECT_DIR$/public" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/daco17/pl2_fig12.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/home/publications_all.md" afterPath="$PROJECT_DIR$/content/home/publications_all.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" afterPath="$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md" />
     </list>
@@ -27,9 +27,9 @@
       <file leaf-file-name="17_daco_prac_lec_2.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="290">
+                <caret line="715" column="188" lean-forward="false" selection-start-line="715" selection-start-column="188" selection-end-line="715" selection-end-column="188" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,6 +92,9 @@
       <find>more on this</find>
       <find>homew</find>
       <find>alert</find>
+      <find>For ins</find>
+      <find>recall</find>
+      <find>deciss</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -668,17 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/home/publications_all.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="153" lean-forward="false" selection-start-line="16" selection-start-column="153" selection-end-line="16" selection-end-column="153" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_1.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -695,11 +687,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
+    <entry file="file://$PROJECT_DIR$/content/home/publications_all.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="248" lean-forward="true" selection-start-line="16" selection-start-column="248" selection-end-line="16" selection-end-column="273" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/17_daco_prac_lec_2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="290">
+            <caret line="715" column="188" lean-forward="false" selection-start-line="715" selection-start-column="188" selection-end-line="715" selection-end-column="188" />
             <folding />
           </first_editor>
           <second_editor />
