@@ -19,7 +19,7 @@ weight = 20
 **Fusion-Based Variational Image Dehazing**, *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, IEEE Signal Processing Letters (Q2), **Feb/2017**. [[DOI]](https://doi.org/10.1109/LSP.2016.2643168), [[PDF]](https://bird.bcamath.org/handle/20.500.11824/659)
 
 ## **Conference Publications**
-**Retinal Image Quality Assessment by Mean-Subtracted Contrast-Normalized Coefficients**, *A. Galdran*, T. Araújo, A. M. Mendonça, A. Campilho, VI ECCOMAS Thematic Conference on Computational Vision and Medical Image Processing (VIPIMAGE), Porto (Portugal), **Oct/2017 (accepted)**
+**Retinal Image Quality Assessment by Mean-Subtracted Contrast-Normalized Coefficients**, *A. Galdran*, T. Araújo, A. M. Mendonça, A. Campilho, VI ECCOMAS Thematic Conference on Computational Vision and Medical Image Processing (VIPIMAGE), Porto (Portugal), [[DOI]](https://doi.org/10.1007/978-3-319-68195-5_92), [[PDF]](pdf/vip_image_galdran.pdf)
 
 **An Efficient Non-uniformity Correction Technique for Side-Scan Sonar Imagery**, *A. Galdran*, A. Isasi, M. Al-Rawi, J. Rodriguez, J. Bastos, F. Elmgren, M. Pinto, IEEE Oceans Conference, Aberdeen (Scotland), **Jul/2017 (accepted)**
 
