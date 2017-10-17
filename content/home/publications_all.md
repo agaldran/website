@@ -21,6 +21,8 @@ weight = 20
 ## **Conference Publications**
 **Retinal Image Quality Assessment by Mean-Subtracted Contrast-Normalized Coefficients**, *A. Galdran*, T. Araújo, A. M. Mendonça, A. Campilho, VI ECCOMAS Thematic Conference on Computational Vision and Medical Image Processing (VIPIMAGE), Porto (Portugal), [[DOI]](https://doi.org/10.1007/978-3-319-68195-5_92), [[PDF]](pdf/vip_image_galdran.pdf)
 
+**Spatial Enhancement by Dehazing for Detection of Microcalcifications with Convolutional Nets**, A. Bria, C. Marrocco, A. Galdran, A. Campilho, A. Marchesi, J.J. Mordang, N. Karssemeijer, M. Molinara, F. Tortorella, International Conference on Image Analysis and Processing (ICIAP), Catania (Italy), **Sep/2017**, [[DOI]](https://doi.org/10.1007/978-3-319-68548-9_27)
+
 **An Efficient Non-uniformity Correction Technique for Side-Scan Sonar Imagery**, *A. Galdran*, A. Isasi, M. Al-Rawi, J. Rodriguez, J. Bastos, F. Elmgren, M. Pinto, IEEE Oceans Conference, Aberdeen (Scotland), **Jul/2017 (accepted)**
 
 **A Deep Neural Network for Vessel Segmentation of Scanning Laser Ophthalmoscopy Images**, M.I. Meyer, P. Costa, *A. Galdran*, A. M. Mendonça, A. Campilho, International Conference on Image Analysis and Recognition (ICIAR), Montreal (Canada), **Jul/2017**, [[DOI]](https://doi.org/10.1007/978-3-319-59876-5_56)
