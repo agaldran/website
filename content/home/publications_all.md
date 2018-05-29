@@ -16,7 +16,8 @@ weight = 20
 ##  **Journal Publications**
 **A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**. [[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), [[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
 
-**Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Feb/2017**. [[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), [[PDF]](pdf/amef_dehazing.pdf), [[Code]](https://github.com/agaldran/amef_dehazing).
+**Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Feb/2017**. 
+[[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), [[PDF]](pdf/amef_dehazing.pdf), [[Code]](https://github.com/agaldran/amef_dehazing).
 
 ## **Conference Publications**
 
@@ -29,6 +30,7 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct 2018 (accepted
 **A Pixel-wise Distance Regression Approach for Joint Optical Disc and Fovea Detection**, M.I. Meyer, 
 *A. Galdran*,  A. M. Mendonça, A. Campilho,
 2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep 2018 (accepted)**
+[[Code]](https://github.com/minesmeyer/od-fovea-regression)
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
 2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018** (**accepted**).
