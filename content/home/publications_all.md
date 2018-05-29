@@ -14,7 +14,9 @@ weight = 20
 
 # 2018
 ##  **Journal Publications**
-**A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**. [[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), [[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
+**A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, 
+P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**. 
+[[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), [[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
 
 **Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Feb/2017**. 
 [[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), [[PDF]](pdf/amef_dehazing.pdf), [[Code]](https://github.com/agaldran/amef_dehazing).
@@ -34,23 +36,26 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct 2018 (accepted
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
 2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018** (**accepted**).
+[[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation)
 
 **On the Duality Between Retinex and Image Dehazing**, *A. Galdran*, A. Alvarez-Gila, A. Bria, J. Vazquez-Corral, M. Bertalmío,
-2018 Conference on Computer Vision and Pattern Recognition (**CVPR**), Salt Lake City (USA), **Jun/2018** (**accepted**), [Arxiv link](https://arxiv.org/abs/1712.02754). 
+2018 Conference on Computer Vision and Pattern Recognition (**CVPR**), Salt Lake City (USA), **Jun/2018** (**accepted**), 
+[Arxiv link](https://arxiv.org/abs/1712.02754). 
 
 **NTIRE 2018 Challenge on Image Dehazing: Methods and Results**, C. Ancuti, ..., *A. Galdran*, ..., Z. Chen,
-2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018** (**accepted**), [Arxiv link](https://arxiv.org/abs/1712.02754). 
+2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018** (**accepted**), 
+[[PDF]](http://www.kfm.cat/pdf/ntire-2018-dehazing-challenge-report.pdf). 
 
 # 2017
 ##  **Journal Publications**
 **End-to-end Adversarial Retinal Image Synthesis**, 
 P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, 
 IEEE Transactions on Medical Imaging, **Oct/2017**. 
-[[DOI]](https://doi.org/10.1109/TMI.2017.2759102), [[PDF]](pdf/tmi_2017.pdf).
+[[DOI]](https://doi.org/10.1109/TMI.2017.2759102), [[PDF]](pdf/tmi_2017.pdf), [[Code]](https://github.com/costapt/adversarial_retinal_synthesis).
 
 **Fusion-Based Variational Image Dehazing**, 
-*A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, IEEE Signal Processing Letters (Q2), 
-**Feb/2017**. [[DOI]](https://doi.org/10.1109/LSP.2016.2643168), [[PDF]](https://bird.bcamath.org/handle/20.500.11824/659).
+*A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, IEEE Signal Processing Letters (Q2), **Feb/2017**. 
+[[DOI]](https://doi.org/10.1109/LSP.2016.2643168), [[PDF]](https://bird.bcamath.org/handle/20.500.11824/659), [[Code]](https://sites.google.com/site/agaldran/software).
 
 ## **Conference Publications**
 **Retinal Image Quality Assessment by Mean-Subtracted Contrast-Normalized Coefficients**, 
@@ -95,7 +100,7 @@ E. Garrote, G. Aresta, P. Costa, A. M. Mendonça, A. Campilho, **Mar/2017**.
 
 **Towards Adversarial Retinal Image Synthesis**, 
 P. Costa, *A. Galdran*, M. I. Meyer, M. D. Abràmoff, M. Niemeijer, A.M. Mendonça, A. Campilho, **Jan/2017**. 
-[Arxiv link](https://arxiv.org/pdf/1701.08974).
+[Arxiv link](https://arxiv.org/pdf/1701.08974), [[Code]](https://github.com/costapt/vess2ret).
 
 # 2016
 ##  **Journal Publications**
@@ -120,7 +125,7 @@ IS&T International Symposium on Electronic Imaging, San Francisco (CA, USA), **F
 ##  **Journal Publications**
 **Enhanced Variational Image Dehazing**, 
 *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, SIAM Journal on Imaging Sciences (Q1), **Jul/2015**, 
-[[DOI]](https://doi.org/10.1137/15M1008889), [[PDF]](http://www.dtic.upf.edu/~jvazquez/VariationalDehazing_EVID_final_LR.pdf).
+[[DOI]](https://doi.org/10.1137/15M1008889), [[PDF]](http://www.dtic.upf.edu/~jvazquez/VariationalDehazing_EVID_final_LR.pdf), , [[Code]](https://sites.google.com/site/agaldran/software).
 
 **Automatic 3D model-based method for liver segmentation in MRI based on active contours and total variation minimization**, 
 A. Bereciartua, A. Picon, *A. Galdran*, P. Iriondo, 
