@@ -57,7 +57,7 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018 (accepted
 **Deep Convolutional Artery/Vein Classification of Retinal Vessels**, 
 M.I. Meyer, *A. Galdran*, P. Costa, A. M. Mendonça, A. Campilho, 
 International Conference on Image Analysis and Recognition (**ICIAR**), Porto (Portugal), **Jun/2018**, 
-[[PDF]](pdf/av_ines_iciar.pdf.pdf).
+[[PDF]](pdf/av_ines_iciar.pdf).
 
 # 2017
 ##  **Journal Publications**

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaea58f7-75f6-4789-8fd8-f09572996d52" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/home/publications_all.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/home/publications_all.md" afterDir="false" />
     </list>
     <ignored path="website.iws" />
@@ -27,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/content/home/publications_all.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="319">
-                <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+              <first_editor relative-caret-position="679">
+                <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -244,8 +242,8 @@
     <entry file="file://$PROJECT_DIR$/content/home/publications_all.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="319">
-            <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
+          <first_editor relative-caret-position="679">
+            <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
