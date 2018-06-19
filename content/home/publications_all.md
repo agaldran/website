@@ -49,7 +49,7 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018 (accepted
 [[PDF]](http://www.kfm.cat/pdf/ntire-2018-dehazing-challenge-report.pdf). 
 
 
-**Ntire 2018 Challenge on Spectral Reconstruction from RGB Images**, B. Arad, ..., *A. Galdran*, ..., S. Sarkar,
+**NTIRE 2018 Challenge on Spectral Reconstruction from RGB Images**, B. Arad, ..., *A. Galdran*, ..., S. Sarkar,
 2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018**, 
 [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Arad_NTIRE_2018_Challenge_CVPR_2018_paper.pdf).
 
