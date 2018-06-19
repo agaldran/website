@@ -27,27 +27,37 @@ P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018*
 ## **Conference Publications**
 
 **Weakly-Supervised Fog Detection**, *A. Galdran*, P. Costa, J. Vazquez-Corral, A. Campilho, IEEE International 
-Conference on Image Processing (**ICIP**), Athens (Greece), **Oct 2018 (accepted)**
+Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018 (accepted)**.
 
 **A No-Reference Retinal Vessel Tree Segmentation Quality Metric**, *A. Galdran*,  P. Costa, A. Bria, T. Araújo, A. M. Mendonça, A. Campilho,
-2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep 2018 (accepted)**
+2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep/2018 (accepted)**.
 
-**A Pixel-wise Distance Regression Approach for Joint Optical Disc and Fovea Detection**, M.I. Meyer, 
-*A. Galdran*,  A. M. Mendonça, A. Campilho,
-2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep 2018 (accepted)**
-[[Code]](https://github.com/minesmeyer/od-fovea-regression)
+**A Pixel-wise Distance Regression Approach for Joint Optical Disc and Fovea Detection**, M.I. Meyer, *A. Galdran*,  A. M. Mendonça, A. Campilho,
+2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep/2018 (accepted)**,
+[[Code]](https://github.com/minesmeyer/od-fovea-regression).
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
-2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018** (**accepted**).
-[[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation)
+2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018 (accepted)**,
+[[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation).
 
 **On the Duality Between Retinex and Image Dehazing**, *A. Galdran*, A. Alvarez-Gila, A. Bria, J. Vazquez-Corral, M. Bertalmío,
-2018 Conference on Computer Vision and Pattern Recognition (**CVPR**), Salt Lake City (USA), **Jun/2018** (**accepted**), 
-[[Arxiv link]](https://arxiv.org/abs/1712.02754). 
+2018 Conference on Computer Vision and Pattern Recognition (**CVPR**), Salt Lake City (USA), **Jun/2018**, 
+[[PDF]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Galdran_On_the_Duality_CVPR_2018_paper.pdf). 
 
 **NTIRE 2018 Challenge on Image Dehazing: Methods and Results**, C. Ancuti, ..., *A. Galdran*, ..., Z. Chen,
-2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018** (**accepted**), 
+2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018**, 
 [[PDF]](http://www.kfm.cat/pdf/ntire-2018-dehazing-challenge-report.pdf). 
+
+
+**Ntire 2018 Challenge on Spectral Reconstruction from RGB Images**, B. Arad, ..., *A. Galdran*, ..., S. Sarkar,
+2018 Conference on Computer Vision and Pattern Recognition Workshops (**CVPR-W**), Salt Lake City (USA), **Jun/2018**, 
+[[PDF]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Arad_NTIRE_2018_Challenge_CVPR_2018_paper.pdf).
+
+
+**Deep Convolutional Artery/Vein Classification of Retinal Vessels**, 
+M.I. Meyer, *A. Galdran*, P. Costa, A. M. Mendonça, A. Campilho, 
+International Conference on Image Analysis and Recognition (**ICIAR**), Porto (Portugal), **Jun/2018**, 
+[[PDF]](pdf/av_ines_iciar.pdf.pdf).
 
 # 2017
 ##  **Journal Publications**
