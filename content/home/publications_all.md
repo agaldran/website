@@ -49,6 +49,7 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018**,
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
 2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018**,
+[[PDF]](pdf/lobe_seg.pdf),
 [[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation).
 
 **On the Duality Between Retinex and Image Dehazing**, *A. Galdran*, A. Alvarez-Gila, A. Bria, J. Vazquez-Corral, M. Bertalmío,
