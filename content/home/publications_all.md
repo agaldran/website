@@ -13,31 +13,42 @@ weight = 20
 +++
 
 # 2018
-##  **Journal Publications**
-**A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, 
-P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**. 
-[[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), 
-[[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
-
-**Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Feb/2017**. 
+##  **Journal Publications** (3)
+**Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Aug/2018**, 
 [[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), 
 [[PDF]](pdf/amef_dehazing.pdf), 
 [[Code]](https://github.com/agaldran/amef_dehazing).
 
-## **Conference Publications**
+**A fast image dehazing method that does not introduce color artifacts**, J. Vazquez-Corral, *A. Galdran*, Praveen Cyriac, 
+Marcelo Bertalmío, Journal of Real-Time Image Processing (Q3), **Aug/2018**,
+[[DOI]](https://doi.org/10.1007/s1155).
+
+
+**A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, 
+P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**,
+[[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), 
+[[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
+
+## **Conference Publications** (8)
 
 **Weakly-Supervised Fog Detection**, *A. Galdran*, P. Costa, J. Vazquez-Corral, A. Campilho, IEEE International 
-Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018 (accepted)**.
+Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018**,
+[[DOI]](https://doi.org/10.1109/ICIP.2018.8451196),
+[[PDF]](pdf/fog_detection.pdf).
 
 **A No-Reference Retinal Vessel Tree Segmentation Quality Metric**, *A. Galdran*,  P. Costa, A. Bria, T. Araújo, A. M. Mendonça, A. Campilho,
-2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep/2018 (accepted)**.
+2018 Medical Image Computing and Computer Assisted Intervention (**MICCAI**), Granada (Spain), **Sep/2018**, 
+[[DOI]](https://doi.org/10.1007/978-3-030-00928-1_10),
+[[PDF]](pdf/no_ref_vessel_qual.pdf).
 
 **A Pixel-wise Distance Regression Approach for Joint Optical Disc and Fovea Detection**, M.I. Meyer, *A. Galdran*,  A. M. Mendonça, A. Campilho,
-2018 Medical Image Computing and Computer Assited Intervention (**MICCAI**), Granada (Spain), **Sep/2018 (accepted)**,
+2018 Medical Image Computing and Computer Assisted Intervention (**MICCAI**), Granada (Spain), **Sep/2018**, 
+[[DOI]](https://doi.org/10.1007/978-3-030-00934-2_5),
+[[PDF]](pdf/od_fovea_location.pdf),
 [[Code]](https://github.com/minesmeyer/od-fovea-regression).
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
-2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018 (accepted)**,
+2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018**,
 [[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation).
 
 **On the Duality Between Retinex and Image Dehazing**, *A. Galdran*, A. Alvarez-Gila, A. Bria, J. Vazquez-Corral, M. Bertalmío,
@@ -56,14 +67,15 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018 (accepted
 
 **Deep Convolutional Artery/Vein Classification of Retinal Vessels**, 
 M.I. Meyer, *A. Galdran*, P. Costa, A. M. Mendonça, A. Campilho, 
-International Conference on Image Analysis and Recognition (**ICIAR**), Porto (Portugal), **Jun/2018**, 
+International Conference on Image Analysis and Recognition (**ICIAR**), Porto (Portugal), **Jun/2018**,
+[[DOI]](https://doi.org/10.1007/978-3-319-93000-8_71), 
 [[PDF]](pdf/av_ines_iciar.pdf).
 
 # 2017
-##  **Journal Publications**
+##  **Journal Publications** (2)
 **End-to-end Adversarial Retinal Image Synthesis**, 
 P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, 
-IEEE Transactions on Medical Imaging, **Oct/2017**. 
+IEEE Transactions on Medical Imaging, **Oct/2017**,
 [[DOI]](https://doi.org/10.1109/TMI.2017.2759102), 
 [[PDF]](pdf/tmi_2017.pdf), 
 [[Code]](https://github.com/costapt/adversarial_retinal_synthesis).
@@ -74,7 +86,7 @@ IEEE Transactions on Medical Imaging, **Oct/2017**.
 [[PDF]](https://bird.bcamath.org/handle/20.500.11824/659), 
 [[Code]](https://sites.google.com/site/agaldran/software).
 
-## **Conference Publications**
+## **Conference Publications** (7)
 **Retinal Image Quality Assessment by Mean-Subtracted Contrast-Normalized Coefficients**, 
 *A. Galdran*, T. Araújo, A. M. Mendonça, A. Campilho, VI ECCOMAS Thematic Conference on Computational Vision and Medical 
 Image Processing (**VIPIMAGE**), Porto (Portugal), **Oct/2017**, 
@@ -117,7 +129,7 @@ IEEE 30th International Symposium on Computer-based Medical Systems (**CBMS**), 
 [[DOI]](https://doi.org/10.1109/CBMS.2017.28), 
 [[PDF]](pdf/dehazing_illumination_vessels.pdf).
 
-## **Preprints**
+## **Preprints** (2)
 **Data-Driven Color Augmentation Techniques for Deep Skin Image Analysis**, 
 *A. Galdran*, A. Alvarez-Gila, M. I. Meyer, C. L. Saratxaga, T. Araújo, 
 E. Garrote, G. Aresta, P. Costa, A. M. Mendonça, A. Campilho, **Mar/2017**. 
@@ -129,13 +141,13 @@ P. Costa, *A. Galdran*, M. I. Meyer, M. D. Abràmoff, M. Niemeijer, A.M. Mendon�
 [[Code]](https://github.com/costapt/vess2ret).
 
 # 2016
-##  **Journal Publications**
+##  **Journal Publications** (1)
 **3D Active Surfaces for Liver Segmentation in Multisequence MRI Images**, 
 A. Bereciartua, A. Picon, *A. Galdran*, P. Iriondo, 
 Computer Methods and Programs in Biomedicine (Q1), **Aug/2016**, 
 [[DOI]](https://doi.org/10.1016/j.cmpb.2016.04.028).
 
-## **Conference Publications**
+## **Conference Publications** (2)
 **Intensity normalization of sidescan sonar imagery**, 
 M. S. Al-Rawi, *A. Galdran*, X. Yuan, M. Eckert, J. F. Martinez, F. Elmgren, 
 B. Cürüklü, J. Rodriguez, J. Bastos, M. Pinto, 
@@ -150,7 +162,7 @@ IS&T International Symposium on Electronic Imaging, San Francisco (CA, USA), **F
 [[PDF]](http://www.ingentaconnect.com/content/ist/ei/2016/00002016/00000006/art00010?crawler=true).
 
 # 2015
-##  **Journal Publications**
+##  **Journal Publications** (3)
 **Enhanced Variational Image Dehazing**, 
 *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, SIAM Journal on Imaging Sciences (Q1), **Jul/2015**, 
 [[DOI]](https://doi.org/10.1137/15M1008889), 
@@ -169,7 +181,7 @@ Journal of Visual Communication and Image Representation (Q1), **Jan/2015**,
 [[DOI]](https://doi.org/10.1016/j.jvcir.2014.11.006), 
 [[PDF]](http://www.academia.edu/download/40429159/Automatic_Red-Channel_underwater_image_r20151127-13023-t6apld.pdf).
 
-## **Conference Publications**
+## **Conference Publications** (1)
 
 **Pectoral muscle segmentation in mammograms based on cartoon-texture decomposition**, 
 *A. Galdran*, A. Picón, E. Garrote, D. Pardo, 
@@ -179,7 +191,7 @@ Iberian Conference on Pattern Recognition and Image Analysis (**IBPRIA**), Santi
 
 
 # 2014
-## **Conference Publications**
+## **Conference Publications** (1)
 **A Variational Framework for Single Image Dehazing**, 
 *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, 
 European Conference on Computer Vision - Workshop on Color and Photometry in Computer Vision (**ECCV-W**), Zurich (Switzerland), **Jul/2014**, 
