@@ -21,7 +21,8 @@ weight = 20
 
 **A fast image dehazing method that does not introduce color artifacts**, J. Vazquez-Corral, *A. Galdran*, Praveen Cyriac, 
 Marcelo Bertalmío, Journal of Real-Time Image Processing (Q3), **Aug/2018**,
-[[DOI]](https://doi.org/10.1007/s1155).
+[[DOI]](https://doi.org/10.1007/s11554-018-0816-6),
+[[PDF]](pdf/dehazing_JRTIP_final.pdf).
 
 
 **A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, 
@@ -29,7 +30,7 @@ P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018*
 [[DOI]](https://doi.org/10.1109/ACCESS.2018.2816003), 
 [[PDF]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8316808).
 
-## **Conference Publications** (8)
+## **Conference Publications** (9)
 
 **Weakly-Supervised Fog Detection**, *A. Galdran*, P. Costa, J. Vazquez-Corral, A. Campilho, IEEE International 
 Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018**,
@@ -46,6 +47,11 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018**,
 [[DOI]](https://doi.org/10.1007/978-3-030-00934-2_5),
 [[PDF]](pdf/od_fovea_location.pdf),
 [[Code]](https://github.com/minesmeyer/od-fovea-regression).
+
+**UOLO - automatic object detection and segmentation in biomedical images**, T. Araújo, G. Aresta, *A. Galdran*,  P. Costa, A. M. Mendonça, A. Campilho,
+2018 Medical Image Computing and Computer Assisted Intervention Workshop (**MICCAIw**), Granada (Spain), **Sep/2018**, 
+[[DOI]](https://doi.org/10.1007/978-3-030-00889-5_19),
+[[PDF]](pdf/uolo.pdf).
 
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
 2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018**,
