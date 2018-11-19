@@ -13,7 +13,11 @@ weight = 20
 +++
 
 # 2018
-##  **Journal Publications** (3)
+##  **Journal Publications** (4)
+**CATARACTS: Challenge on Automatic Tool Annotation for cataRACT Surgery**, H. Al Hajj, ..., *A. Galdran*, ..., G. Quellec, Medical Image Analysis (Q1), **Nov/2018**, 
+[[DOI]](https://doi.org/10.1016/j.media.2018.11.008), 
+[[PDF]](pdf/media_cataracts.pdf).
+
 **Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Aug/2018**, 
 [[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), 
 [[PDF]](pdf/amef_dehazing.pdf), 
@@ -56,6 +60,7 @@ Conference on Image Processing (**ICIP**), Athens (Greece), **Oct/2018**,
 **End-to-End Supervised Lung Lobe Segmentation**, F.T. Ferreira, P. Sousa, *A. Galdran*, M. R. Sousa, A. Campilho, 
 2018 International Joint Conference on Neural Networks (**IJCNN**), Rio de Janeiro (Brazil), **Jul/2018**,
 [[PDF]](pdf/lobe_seg.pdf),
+[[DOI]](https://doi.org/10.1109/IJCNN.2018.8489677),
 [[Code]](https://github.com/filipetrocadoferreira/end2endlobesegmentation).
 
 **On the Duality Between Retinex and Image Dehazing**, *A. Galdran*, A. Alvarez-Gila, A. Bria, J. Vazquez-Corral, M. Bertalmío,
