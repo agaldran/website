@@ -21,15 +21,15 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Adrian Galdran"
   role = "Researcher on Image Processing and Machine Learning, with applications on Medical Imaging"
-  organization = "BioImaging Lab - INESC TEC Porto (Portugal)"
-  organization_url = "//bioimglab.inesctec.pt"
+  organization = "Laboratoire d'imagerie, de vision et d'intelligence artificielle (LIVIA), Montréal (Canada)"
+  organization_url = "//www.etsmtl.ca/Unites-de-recherche/LIVIA/accueil"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "profile_img2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "adrian.galdran@inesctec.pt"
-  address = "Rua Dr Roberto Frias, 4200 - Porto (Portugal)"
+  email = "agaldran@gmail.com"
+  address = "1100 Notre-Dame St W, Montreal, QC H3C 1K3"
   office_hours = "Contact via e-mail"
   phone = ""
-  skype = ""
+  skype = "agaldran"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -128,10 +128,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "mailto:agaldran@gmail.com"
 
- # [[params.social]]
- #   icon = "twitter"
- #   icon_pack = "fa"
- #   link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/adrian_galdran"
 
   [[params.social]]
     icon = "google-scholar"

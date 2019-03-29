@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2019-03-20T00:00:00"
 draft = false
 
 widget = "about"
@@ -45,8 +45,10 @@ weight = 1
 
 # Biography
 
-I am a Post-Doctoral Fellow at INESC-TEC, INstituto de Engenharia de Sistemas e Computadores, in Porto (Portugal). I am based at the BioImaging Lab, within the C-BER research center, and conduct my research under the supervision of Prof. Aurélio Campilho.
+I am a Post-Doctoral Fellow at the École de Tecnologie Superieure, Montréal. 
+I work at the Laboratoire d'imagerie, de vision et d'intelligence artificielle (LIVIA), under the supervision of Prof. Ismail ben Ayed and Prof. Hervé Lombaert.
+My current research is focused on Computer Vision for Medical Imaging applications, and Deep Learning methods that can be trained on scarce labeled data, with a focus on Weakly-Supervised and Self-Supervised approaches.
+The main areas of application are Retinal and Histopathological Image Analysis. 
 
-My current work is focused on retinal image understanding, within the SCREEN-DR project. This is a joint INESC-CMU initiative to provide an end-to-end eye health-care system, based on retinal fundus image analysis. The tools of choice for this project are advanced image processing and machine learning algorithms. 
-
-Previously, I have worked on the design of new Image Restoration algorithms adapted for problems on which there is an attenuating media in between the observer and the imaged scene. 
+Previously I was a Post-Doctoral Fellow at INESC-TEC, INstituto de Engenharia de Sistemas e Computadores, in Porto (Portugal), under the supervision of Prof. Aurélio Campilho.
+Before this, I worked on the design of new Image Restoration algorithms adapted for problems on which there is an attenuating media in between the observer and the imaged scene. 

@@ -12,12 +12,33 @@ widget = "custom"
 weight = 20
 +++
 
-# 2018
-##  **Journal Publications** (4)
-**CATARACTS: Challenge on Automatic Tool Annotation for cataRACT Surgery**, H. Al Hajj, ..., *A. Galdran*, ..., G. Quellec, Medical Image Analysis (Q1), **Nov/2018**, 
+# 2019
+##  **Journal Publications** (1)
+**CATARACTS: Challenge on Automatic Tool Annotation for cataRACT Surgery**, 
+H. Al Hajj, ..., *A. Galdran*, ..., G. Quellec, Medical Image Analysis (Q1), **Feb/2019**, 
 [[DOI]](https://doi.org/10.1016/j.media.2018.11.008), 
 [[PDF]](pdf/media_cataracts.pdf).
 
+## **Conference Publications** (3)
+
+**Uncertainty-Aware Artery/vein Classification on Retinal Images**, 
+*A. Galdran*, M. I. Meyer, P. Costa, A. M. Mendonça, A. Campilho, 
+IEEE International Symposium on Biomedical Imaging (**ISBI**), Venice (Italy), **Apr/2019**,
+[[PDF]](pdf/uncertainty_aware_av.pdf),
+[[Code]](https://github.com/agaldran/a_v_uncertain).
+
+**Real-Time Informative Laryngoscopic Frame Classification with Pre-Trained Convolutional Neural Networks**, 
+*A. Galdran*, P. Costa, A. Campilho,
+IEEE International Symposium on Biomedical Imaging (**ISBI**), Venice (Italy), **Apr/2019**,
+[[PDF]](pdf/real_time_larynx.pdf).
+
+**Learning to Segment the Lung Volume from Ct Scans Based on Semi-Automatic Ground-Truth**, 
+P. Sousa, *A. Galdran*,  P. Costa, A. Campilho,
+IEEE International Symposium on Biomedical Imaging (**ISBI**), Venice (Italy), **Apr/2019**.
+[[PDF]](pdf/isbi_lung.pdf).
+
+# 2018
+##  **Journal Publications** (4)
 **Image Dehazing by Artificial Multi-Exposure Image Fusion**, *A. Galdran*, Signal Processing (Q1), **Aug/2018**, 
 [[DOI]](https://doi.org/10.1016/j.sigpro.2018.03.008), 
 [[PDF]](pdf/amef_dehazing.pdf), 
@@ -28,6 +49,12 @@ Marcelo Bertalmío, Journal of Real-Time Image Processing (Q3), **Aug/2018**,
 [[DOI]](https://doi.org/10.1007/s11554-018-0816-6),
 [[PDF]](pdf/dehazing_JRTIP_final.pdf).
 
+**End-to-end Adversarial Retinal Image Synthesis**, 
+P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, 
+IEEE Transactions on Medical Imaging, **Mar/2018**,
+[[DOI]](https://doi.org/10.1109/TMI.2017.2759102), 
+[[PDF]](pdf/tmi_2017.pdf), 
+[[Code]](https://github.com/costapt/adversarial_retinal_synthesis).
 
 **A Weakly-Supervised Framework for Interpretable Diabetic Retinopathy Detection on Retinal Images**, 
 P. Costa, *A. Galdran*, A. Smailagic, A. Campilho, IEEE Access (Q1), **Mar/2018**,
@@ -84,14 +111,7 @@ International Conference on Image Analysis and Recognition (**ICIAR**), Porto (P
 [[PDF]](pdf/av_ines_iciar.pdf).
 
 # 2017
-##  **Journal Publications** (2)
-**End-to-end Adversarial Retinal Image Synthesis**, 
-P. Costa, *A. Galdran*, M. I. Meyer, M. Niemeijer, M. Àbramoff, A. M. Mendonça, A. Campilho, 
-IEEE Transactions on Medical Imaging, **Oct/2017**,
-[[DOI]](https://doi.org/10.1109/TMI.2017.2759102), 
-[[PDF]](pdf/tmi_2017.pdf), 
-[[Code]](https://github.com/costapt/adversarial_retinal_synthesis).
-
+##  **Journal Publications** (1)
 **Fusion-Based Variational Image Dehazing**, 
 *A. Galdran*, J. Vazquez-Corral, D. Pardo, M. Bertalmio, IEEE Signal Processing Letters (Q2), **Feb/2017**, 
 [[DOI]](https://doi.org/10.1109/LSP.2016.2643168), 
